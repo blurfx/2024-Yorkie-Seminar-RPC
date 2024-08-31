@@ -1,85 +1,88 @@
 :root {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
-h1, h2 {
-    margin-top: 0;
+h1,
+h2 {
+  margin-top: 0;
 }
 
 h1 {
-    font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 h2 {
-    font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 li {
-    list-style: initial;
-    margin-left: 1rem;
+  list-style: initial;
+  margin-left: 1rem;
 }
 
 table {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #slide-content {
-    padding: 0;
+  padding: 0;
 }
 
 .cover {
-    padding: 2rem 3rem;
+  padding: 2rem 3rem;
 }
 
 .slidev-layout {
-    padding: 2rem 3rem;
-    width: 100%;
+  padding: 2rem 3rem;
+  width: 100%;
 }
 
 .dim {
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
-:not(pre) > code:before, :not(pre) > code:after {
-    content: none;
+:not(pre) > code:before,
+:not(pre) > code:after {
+  content: none;
 }
 
 pre.slidev-code {
-    border: 0 !important;
+  border: 0 !important;
 }
 
 pre.shiki-container {
-    border-width: 2px;
+  border-width: 2px;
 }
 
 a.ref {
-    position: absolute;
-    left: 0.5rem;
-    bottom: 0;
-    font-size: 0.75rem;
+  position: absolute;
+  left: 0.5rem;
+  bottom: 0;
+  font-size: 0.75rem;
 }
 
-a.ref, a.ref a {
-    color: #ddd !important;
+a.ref,
+a.ref a {
+  color: #ddd !important;
 }
 
 .table-no-margin table {
-    margin: 0;
+  margin: 0;
 }
 
 .zoom-90 {
-    zoom: 0.9;
+  zoom: 0.9;
 }
 
 .reference {
-    @apply absolute p-0 m-0 left-1 bottom-0 text-[12px] opacity-40;
+  @apply absolute p-0 m-0 left-1 bottom-0 text-[12px] opacity-40;
 }
 
 .slidev-layout.center {
-    @apply text-center;
+  @apply text-center;
 }
 
 div.center {
-    @apply text-center mx-auto;
+  @apply text-center mx-auto;
 }
